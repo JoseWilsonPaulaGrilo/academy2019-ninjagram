@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+}
+
+.login{
+    background-color: #54C780;
+    background-image: url("fundo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login > .content{
+    width: 320px;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;;
+}
+
+.login-form{
+    margin-top: 78px;
+}
+
+.input-control > label{
+    display: block;
+}
+
+.input-control > .input{
+    height: 48px;
+    width: calc(100% - 50px);
+    border-radius: 24px;
+    border: 0;
+    background: #FFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+    padding: 0 25px;
+}
+
+.input-control > .input:focus{
+    background: #F2F2F2;
+}
+
+@media (device-width: 300px){
+    .input-control > label{
+        display: none;
+    }
+}
